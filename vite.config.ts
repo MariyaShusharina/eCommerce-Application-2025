@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [tsconfigPaths()],
 
   build: {
-    outDir: 'deploy',
+    outDir: '',
     emptyOutDir: true,
     sourcemap: false,
   },
